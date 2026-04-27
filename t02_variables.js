@@ -4,8 +4,7 @@ Name of task: Commenting on code
 
  console.log(  "Running T1-intro.js");
  console.log( "hello world");
- let 
- console.log( "hi" + name)
+ console.log( "hi"+ name)
 //Variables
 var name = "Nicholas"
 var age = 15;
