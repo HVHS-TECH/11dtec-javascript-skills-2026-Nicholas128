@@ -12,7 +12,7 @@ var age = 15;
 var number15 = 15;
 var answer;
 var isStudent = true;
-var pocketMoney = "$400"
+var pocketMoney = "$400" 
 
 
 
