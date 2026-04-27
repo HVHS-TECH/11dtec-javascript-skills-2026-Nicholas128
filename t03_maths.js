@@ -24,8 +24,8 @@ console.log( "hello world");
 console.log( "hi"+ name)
 console.log( "as of "+ currentYear) 
 console.log("you are "+ age + " years old")
-answer = age - number15;
-console.log( "you were born in"+ answer)
+answer = currentYear - number15;
+console.log( "you were born in "+ answer)
 console.log("you have "+ pocketMoney)
 
 
