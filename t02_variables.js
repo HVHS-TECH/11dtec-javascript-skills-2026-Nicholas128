@@ -7,7 +7,9 @@ Name of task: Commenting on code
 //Variables
 var name = "Nicholas"
 var age = 15;
-var isStudent = true; 
+var isStudent = true;
+var pocketMoney = "$400"
+var currentYear = 2025;
 /******************
  Main code
 *******************/
