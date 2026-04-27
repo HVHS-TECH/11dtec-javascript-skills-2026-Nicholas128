@@ -10,8 +10,10 @@ var name = " Nicholas"
 var currentYear = 2025;
 var age = 15;
 var number15 = 15;
+var answer;
 var isStudent = true;
 var pocketMoney = "$400"
+
 
 
 /******************
@@ -22,7 +24,8 @@ console.log( "hello world");
 console.log( "hi"+ name)
 console.log( "as of "+ currentYear) 
 console.log("you are "+ age + " years old")
-console.log( "you were born in"+ age - number15)
+answer = age - number15;
+console.log( "you were born in"+ answer)
 console.log("you have "+ pocketMoney)
 
 
