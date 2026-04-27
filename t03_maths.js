@@ -21,8 +21,8 @@ console.log(  "Running T1-intro.js");
 console.log( "hello world");
 console.log( "hi"+ name)
 console.log( "as of "+ currentYear) 
-console.log( "you were born in"+ age - number15)
 console.log("you are "+ age + " years old")
+console.log( "you were born in"+ age - number15)
 console.log("you have "+ pocketMoney)
 
 
