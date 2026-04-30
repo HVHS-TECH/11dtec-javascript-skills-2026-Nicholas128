@@ -11,6 +11,7 @@ var currentYear = 2025;
 var age = 15;
 var number15 = 15;
 var number10 = 10; 
+var number2 = 2;
 var answer;
 var isStudent = true;
 var pocketMoney = "$400" 
@@ -30,7 +31,7 @@ console.log( "you were born in "+ answer)
 answer2 = age + number10;
 console.log( "in 10 years you will be " + answer2)
 console.log("you have "+ pocketMoney)
-answer3 = pocketMoney / 2
+answer3 = pocketMoney / number2;
 console.log("You spend half of your money, now you have " + answer3)
 
 
