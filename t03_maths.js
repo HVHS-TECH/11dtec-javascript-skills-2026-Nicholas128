@@ -10,6 +10,7 @@ var name = " Nicholas"
 var currentYear = 2025;
 var age = 15;
 var number15 = 15;
+var number10 = 10; 
 var answer;
 var isStudent = true;
 var pocketMoney = "$400" 
@@ -26,6 +27,8 @@ console.log( "as of "+ currentYear)
 console.log("you are "+ age + " years old")
 answer = currentYear - number15;
 console.log( "you were born in "+ answer)
+console.log( "in 10 years you will be")
+answer = age + number10;
 console.log("you have "+ pocketMoney)
 
 
