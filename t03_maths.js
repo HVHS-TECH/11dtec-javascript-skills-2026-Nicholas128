@@ -27,8 +27,8 @@ console.log( "as of "+ currentYear)
 console.log("you are "+ age + " years old")
 answer = currentYear - number15;
 console.log( "you were born in "+ answer)
-console.log( "in 10 years you will be")
-answer = age + number10;
+answer2 = age + number10;
+console.log( "in 10 years you will be " + answer2)
 console.log("you have "+ pocketMoney)
 
 
