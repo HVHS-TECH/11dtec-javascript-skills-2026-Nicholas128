@@ -11,11 +11,11 @@ var currentYear = 2025;
 var age = 15;
 var number15 = 15;
 var number10 = 10; 
-var number2 = 2;
 var answer;
 var answer2;
 var isStudent = true;
 var pocketMoney = "$400" 
+var number2 = 2;
 var answer3;
 
 
