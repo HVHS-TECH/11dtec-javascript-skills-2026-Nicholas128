@@ -1,14 +1,15 @@
 console.log("Task 4 - Debugging")
 
+// Set up the size of the page.
+var length = 8;
+var width = 10;
+
 // calculate the area
 var area = length * width;
 
 // calculate the perimeter
 var perimeter = length + width; 
 
-// Set up the size of the page.
-var length = 8;
-var width = 10;
 
 // Display the results
 console.log("A area of a piece of paper with a length of "+length+", and a width of "+width+" is "+ area )
