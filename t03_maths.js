@@ -32,7 +32,7 @@ console.log( "you were born in "+ answer)
 answer2 = age + number10;
 console.log( "in 10 years you will be " + answer2)
 console.log("you have "+ pocketMoney)
-
+answer3 = pocketMoney - number200;
 console.log( "You spend half of your money, now you have " + answer3)
 
 
