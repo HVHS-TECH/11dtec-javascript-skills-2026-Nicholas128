@@ -22,9 +22,7 @@ var answer3;
 /******************
  Main code
 *******************/
-const OUTPUT = document.getElementByID("SpaceForJavaScriptOutput");
 
-OUTPUT.innerHTML = "<p>Hello World</p>"
 
 console.log(  "Running T5-JVS HTML.js");
 console.log( "hello world");
