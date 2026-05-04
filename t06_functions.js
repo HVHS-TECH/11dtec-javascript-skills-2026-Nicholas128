@@ -38,6 +38,10 @@ OUTPUT.innerHTML+="<p>You spend half of your money, now you have $" + answer3 + 
 function writeLine(){
     OUTPUT.innerHTML += "<p>Less code matters</p>";
 }
+
+function wellcome(){
+    OUTPUT.innerHTML += "<p>Wellcome to the shop</p>"
+}
 /******************
  Main code
 *******************/
@@ -56,6 +60,7 @@ console.log("you have $"+ pocketMoney)
 answer3 = pocketMoney - number200;
 console.log( "You spend half of your money, now you have $" + answer3)
 writeLine()
+wellcome()
 
 
 /*******************
