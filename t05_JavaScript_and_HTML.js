@@ -20,7 +20,7 @@ var answer3;
 
 const OUTPUT = document.getElementByID("SpaceForJavaScriptOutput");
 
-OUTPUT.innerHTML="<p>Hellow world</p>"; 
+OUTPUT.innerHTML="<p>Hello world</p>"; 
 /******************
  Main code
 *******************/
