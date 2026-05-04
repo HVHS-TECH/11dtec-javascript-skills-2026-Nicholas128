@@ -44,7 +44,7 @@ function wellcome(){
 }
 /******************
  Main code
-*******************?
+*******************/
 
 
 console.log(  "Running T5-Functions");
