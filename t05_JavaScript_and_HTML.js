@@ -23,7 +23,7 @@ var answer3;
  Main code
 *******************/
 const OUTPUT = document.getElementByID("JavaScriptOutput");
-OUTPUT.innerHTML = "<p>hi " + name +"</p>"
+
 
 console.log(  "Running T5-JVS HTML.js");
 console.log( "hello world");
