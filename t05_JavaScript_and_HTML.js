@@ -18,7 +18,9 @@ var pocketMoney = "400"
 var number200 = 200;
 var answer3;
 
+const OUTPUT = document.getElementByID("SpaceForJavaScriptOutput");
 
+OUTPUT.innerHTML="<p>Hello World</p>"
 /******************
  Main code
 *******************/
