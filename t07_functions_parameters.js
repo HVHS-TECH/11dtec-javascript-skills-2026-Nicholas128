@@ -43,7 +43,9 @@ function wellcome(){
     OUTPUT.innerHTML += "<p>Wellcome to the shop</p>"
 }
 
-function displayProducts
+function displayProducts(){
+    
+}
 /******************
  Main code
 *******************/
