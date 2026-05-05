@@ -19,7 +19,7 @@ var number200 = 200;
 var answer3;
 var number4 = 4;
 var number3 = 3;
-var number2.50 = 2.50;
+var number250 = 2.50;
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 
@@ -46,10 +46,10 @@ function wellcome(){
     OUTPUT.innerHTML += "<p>Wellcome to the shop</p>"
 }
 
-function displayProducts(_number4, _number3,_number2.50, ){
+function displayProducts(_number4, _number3,_number250, ){
 OUTPUT.innerHTML += "<p>Chocolate Bar: $" +_number4+ "</p>"
 OUTPUT.innerHTML += "<p>Chips: $" +_number3+ "</p>"
-OUTPUT.innerHTML += "<p>Drink: $" +_number2.50+ "</p>"
+OUTPUT.innerHTML += "<p>Drink: $" +_number250+ "</p>"
 }
 /******************
  Main code
