@@ -1,5 +1,5 @@
 /******************
-Name of task: Functions
+Name of task: Functions parameters 
 ******************/
 
  
@@ -47,7 +47,7 @@ function wellcome(){
 *******************/
 
 
-console.log(  "Running T5-Functions");
+console.log(  "Running T6-Functions Parameters");
 console.log( "hello world");
 console.log( "hi"+ name)
 console.log( "as of "+ currentYear) 
