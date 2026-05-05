@@ -46,8 +46,10 @@ function wellcome(){
     OUTPUT.innerHTML += "<p>Wellcome to the shop</p>"
 }
 
-function displayProducts(){
-
+function displayProducts(_number4, _number3,_number2.50, ){
+OUTPUT.innerHTML += "<p>Chocolate Bar: $" +_number4+ "</p>"
+OUTPUT.innerHTML += "<p>Chips: $" +_number3+ "</p>"
+OUTPUT.innerHTML += "<p>Drink: $" +_number2.50+ "</p>"
 }
 /******************
  Main code
@@ -68,6 +70,7 @@ answer3 = pocketMoney - number200;
 console.log( "You spend half of your money, now you have $" + answer3)
 writeLine()
 wellcome()
+displayProducts(_number4)
 
 
 /*******************
