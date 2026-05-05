@@ -17,6 +17,9 @@ var isStudent = true;
 var pocketMoney = "400" 
 var number200 = 200;
 var answer3;
+var number4 = 4;
+var number3 = 3;
+var number2.50 = 2.50;
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 
@@ -44,7 +47,7 @@ function wellcome(){
 }
 
 function displayProducts(){
-    
+
 }
 /******************
  Main code
