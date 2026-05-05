@@ -70,9 +70,8 @@ answer3 = pocketMoney - number200;
 console.log( "You spend half of your money, now you have $" + answer3)
 writeLine()
 wellcome()
-displayProducts("number4", 4);
-displayProducts("number3", 3);
-displayProducts("number250", 2.50);
+displayProducts("3", "4",  "2.50")
+
 
 
 /*******************
