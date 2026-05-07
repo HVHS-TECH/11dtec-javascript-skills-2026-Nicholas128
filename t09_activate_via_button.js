@@ -62,7 +62,9 @@ displayProducts("3", "4",  "2.50")
 /*******************
 Functions
 *******************/
-
+function start() {
+spaceForJavaScriptOutput.innerHTML
+}
 
 function writeLine(){
     OUTPUT.innerHTML += "<p>Less code matters</p>";
