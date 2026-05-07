@@ -62,7 +62,7 @@ displayProducts("3", "4",  "2.50")
 /*******************
 Functions
 *******************/
-function start() {
+function Start() {
  spaceForJavaScriptOutput.innerHTML   
  spaceForJavaScriptOutput.innerHTML  
  answer = currentYear - userAge;
