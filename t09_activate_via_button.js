@@ -62,6 +62,12 @@ displayProducts("3", "4",  "2.50")
 /*******************
 Functions
 *******************/
+function start() {
+ spaceForJavaScriptOutput.innerHTML   
+ spaceForJavaScriptOutput.innerHTML  
+ answer = currentYear - userAge;
+ spaceForJavaScriptOutput.innerHTML
+}
 
 function writeLine(){
     OUTPUT.innerHTML += "<p>Less code matters</p>";
@@ -77,9 +83,3 @@ OUTPUT.innerHTML += "<p>Chips: $" +_number3+ "</p>"
 OUTPUT.innerHTML += "<p>Drink: $" +_number250+ "</p>"
 }
 
-function start() {
- spaceForJavaScriptOutput.innerHTML   
- spaceForJavaScriptOutput.innerHTML  
- answer = currentYear - userAge;
- spaceForJavaScriptOutput.innerHTML
-}
