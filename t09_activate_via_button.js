@@ -62,16 +62,25 @@ displayProducts("3", "4",  "2.50")
 /*******************
 Functions
 *******************/
-function start() {
+function start(){
 spaceForJavaScriptOutput.innerHTML
-OUTPUT.innerHTML += "<p>Less code matters</p>";
-OUTPUT.innerHTML += "<p>Wellcome to the shop</p>"
+}
+
+function writeLine(){
+    OUTPUT.innerHTML += "<p>Less code matters</p>";
+
+}
+function wellcome(){
+    OUTPUT.innerHTML += "<p>Wellcome to the shop</p>"
+}
+
+function displayProducts(_number4, _number3,_number250, ){
 OUTPUT.innerHTML += "<p>Chocolate Bar: $" +_number4+ "</p>"
 OUTPUT.innerHTML += "<p>Chips: $" +_number3+ "</p>"
 OUTPUT.innerHTML += "<p>Drink: $" +_number250+ "</p>"
-
-
 }
+
+
 
 
 
