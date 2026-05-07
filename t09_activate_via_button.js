@@ -64,6 +64,21 @@ Functions
 *******************/
 function start(){
 spaceForJavaScriptOutput.innerHTML
+    OUTPUT.innerHTML = "<p>Hello world</p>";
+    OUTPUT.innerHTML += "<p>Hello " + name + "</p>";
+    OUTPUT.innerHTML += "<p>As of " + currentYear + "</p>";
+    OUTPUT.innerHTML += "<p>You are " + age + " years old</p>";
+
+    answer = currentYear - number16;
+    OUTPUT.innerHTML += "<p>You were born in " + answer + "</p>";
+
+    answer2 = age + number10;
+    OUTPUT.innerHTML += "<p>In 10 years you will be " + answer2 + "</p>";
+
+    OUTPUT.innerHTML += "<p>You have $" + pocketMoney + "</p>";
+
+    answer3 = pocketMoney - number200;
+    OUTPUT.innerHTML += "<p>You spend half of your money, now you have $" + answer3 + "</p>";
 }
 
 function writeLine(){
