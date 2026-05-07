@@ -62,12 +62,7 @@ displayProducts("3", "4",  "2.50")
 /*******************
 Functions
 *******************/
-function Start() {
- spaceForJavaScriptOutput.innerHTML   
- spaceForJavaScriptOutput.innerHTML  
- answer = currentYear - userAge;
- spaceForJavaScriptOutput.innerHTML
-}
+
 
 function writeLine(){
     OUTPUT.innerHTML += "<p>Less code matters</p>";
