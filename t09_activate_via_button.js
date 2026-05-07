@@ -35,29 +35,7 @@ OUTPUT.innerHTML+="<p>You have $" + pocketMoney + "</p>"
 answer3 = pocketMoney - number200;
 OUTPUT.innerHTML+="<p>You spend half of your money, now you have $" + answer3 + "</p>";
 
-/******************
- Functions
-*******************/
-function writeLine(){
-    OUTPUT.innerHTML += "<p>Less code matters</p>";
-}
 
-function wellcome(){
-    OUTPUT.innerHTML += "<p>Wellcome to the shop</p>"
-}
-
-function displayProducts(_number4, _number3,_number250, ){
-OUTPUT.innerHTML += "<p>Chocolate Bar: $" +_number4+ "</p>"
-OUTPUT.innerHTML += "<p>Chips: $" +_number3+ "</p>"
-OUTPUT.innerHTML += "<p>Drink: $" +_number250+ "</p>"
-}
-
-function start() {
- spaceForJavaScriptOutput.innerHTML   
- spaceForJavaScriptOutput.innerHTML  
- answer = currentYear - userAge;
- spaceForJavaScriptOutput.innerHTML
-}
 /******************
  Main code
 *******************/
@@ -84,3 +62,24 @@ displayProducts("3", "4",  "2.50")
 /*******************
 Functions
 *******************/
+
+function writeLine(){
+    OUTPUT.innerHTML += "<p>Less code matters</p>";
+}
+
+function wellcome(){
+    OUTPUT.innerHTML += "<p>Wellcome to the shop</p>"
+}
+
+function displayProducts(_number4, _number3,_number250, ){
+OUTPUT.innerHTML += "<p>Chocolate Bar: $" +_number4+ "</p>"
+OUTPUT.innerHTML += "<p>Chips: $" +_number3+ "</p>"
+OUTPUT.innerHTML += "<p>Drink: $" +_number250+ "</p>"
+}
+
+function start() {
+ spaceForJavaScriptOutput.innerHTML   
+ spaceForJavaScriptOutput.innerHTML  
+ answer = currentYear - userAge;
+ spaceForJavaScriptOutput.innerHTML
+}
