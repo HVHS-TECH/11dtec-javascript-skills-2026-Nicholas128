@@ -66,7 +66,8 @@ function start() {
 spaceForJavaScriptOutput.innerHTML
 spaceForJavaScriptOutput.innerHTML
 answer = currentYear - number16;
-
+answer2 = age + number10;
+answer3 = pocketMoney - number200;
 spaceForJavaScriptOutput.innerHTML
 }
 
