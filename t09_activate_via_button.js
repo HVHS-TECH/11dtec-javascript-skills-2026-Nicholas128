@@ -64,6 +64,9 @@ Functions
 *******************/
 function start() {
 spaceForJavaScriptOutput.innerHTML
+spaceForJavaScriptOutput.innerHTML
+answer = currentYear - usersAge;
+spaceForJavaScriptOutput.innerHTML
 }
 
 function writeLine(){
