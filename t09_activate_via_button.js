@@ -21,7 +21,7 @@ var number4 = 4;
 var number3 = 3;
 var number250 = 2.50;
 
-const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
+const OUTPUT = document.getElementById("spaceForJavaScriptOutput"):
 
 OUTPUT.innerHTML="<p>Hello world</p>"; 
 OUTPUT.innerHTML+="<p>Hello" + name + "</p>";
