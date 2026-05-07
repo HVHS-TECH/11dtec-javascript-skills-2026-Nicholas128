@@ -52,7 +52,9 @@ OUTPUT.innerHTML += "<p>Chips: $" +_number3+ "</p>"
 OUTPUT.innerHTML += "<p>Drink: $" +_number250+ "</p>"
 }
 
-function 
+function start() {
+    
+}
 /******************
  Main code
 *******************/
