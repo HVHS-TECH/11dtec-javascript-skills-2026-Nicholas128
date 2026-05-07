@@ -64,12 +64,6 @@ Functions
 *******************/
 function start() {
 spaceForJavaScriptOutput.innerHTML
-spaceForJavaScriptOutput.innerHTML
-answer = currentYear - number16;
-answer2 = age + number10;
-answer3 = pocketMoney - number200;
-spaceForJavaScriptOutput.innerHTML
-}
 
 function writeLine(){
     OUTPUT.innerHTML += "<p>Less code matters</p>";
@@ -84,4 +78,8 @@ OUTPUT.innerHTML += "<p>Chocolate Bar: $" +_number4+ "</p>"
 OUTPUT.innerHTML += "<p>Chips: $" +_number3+ "</p>"
 OUTPUT.innerHTML += "<p>Drink: $" +_number250+ "</p>"
 }
+
+}
+
+
 
