@@ -55,7 +55,8 @@ OUTPUT.innerHTML += "<p>Drink: $" +_number250+ "</p>"
 function start() {
  spaceForJavaScriptOutput.innerHTML   
  spaceForJavaScriptOutput.innerHTML  
-
+ answer = currentYear - userAge;
+ spaceForJavaScriptOutput.innerHTML
 }
 /******************
  Main code
