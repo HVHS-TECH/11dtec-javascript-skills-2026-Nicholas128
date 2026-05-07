@@ -53,7 +53,7 @@ OUTPUT.innerHTML += "<p>Drink: $" +_number250+ "</p>"
 }
 
 function start() {
-    
+ spaceForJavaScriptOutput.innerHTML     
 }
 /******************
  Main code
