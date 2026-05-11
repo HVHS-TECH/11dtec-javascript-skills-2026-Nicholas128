@@ -20,10 +20,12 @@ var answer3;
 var number4 = 4;
 var number3 = 3;
 var number250 = 2.50;
-var userName = NAME_FIELD.value; 
+var userName = NAME_FIELD.value;
 
 const NAME_FIELD = document.getElementById("nameField");
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
+
+
 
 
 
