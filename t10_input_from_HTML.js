@@ -31,7 +31,7 @@ const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 
 
 welcome()
-getFormInput()
+
 
 
 /******************
