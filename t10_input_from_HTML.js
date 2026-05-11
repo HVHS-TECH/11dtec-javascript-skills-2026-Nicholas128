@@ -6,7 +6,7 @@ Name of task: Input from HTML
  
 
 //Variables
-var name = " Nicholas"
+var name = "Nicholas"
 var currentYear = 2026;
 var age = 15;
 var number16 = 16;
@@ -84,7 +84,7 @@ function start(){
     welcome()
     getFormInput() 
     writeLine()
-    displayProducts(3, 4,  2.50)
+    displayProducts(number4, number3, number250)
 }
 
 function writeLine(){
