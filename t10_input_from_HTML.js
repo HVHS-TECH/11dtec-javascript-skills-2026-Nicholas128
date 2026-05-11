@@ -22,6 +22,7 @@ var number3 = 3;
 var number250 = 2.50;
 
 
+
 const NAME_FIELD = document.getElementById("nameField");
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 function getFormInput() {
@@ -30,7 +31,7 @@ var userName = NAME_FIELD.value;
 
 
 
-welcome()
+
 
 
 
