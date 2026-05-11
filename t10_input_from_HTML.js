@@ -37,6 +37,8 @@ OUTPUT.innerHTML += "<p>Your name is " + userName + "</p>";
 
 
 
+
+
 /******************
  Main code
 *******************/

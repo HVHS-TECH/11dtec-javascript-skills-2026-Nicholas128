@@ -24,6 +24,7 @@ var number250 = 2.50;
 
 
 
+
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 function getFormInput() {
 const NAME_FIELD = document.getElementById("nameField");
@@ -31,6 +32,11 @@ var userName = NAME_FIELD.value;
 OUTPUT.innerHTML += "<p>Your name is " + userName + "</p>";
 }
 
+function getFormInput() {
+const AGE_FIELD = document.getElementById("ageField");
+var userAge = AGE_FIELD.value;
+OUTPUT.innerHTML += "<p>Your age is " + userAge + "</p>";
+}
 
 
 
