@@ -23,10 +23,10 @@ var number250 = 2.50;
 
 
 const NAME_FIELD = document.getElementById("nameField");
-var userName = NAME_FIELD.value;
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
-
-
+function getFormInput() {
+var userName = NAME_FIELD.value;
+}
 
 
 
