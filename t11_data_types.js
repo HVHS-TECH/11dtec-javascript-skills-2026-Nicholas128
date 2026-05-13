@@ -40,7 +40,7 @@ function getPocketMoneyInput() {
     const POCKETMONEY_FIELD = document.getElementById("pocketMoneyField");
     var userPocketMoney = POCKETMONEY_FIELD.value;
 
-    OUTPUT.innerHTML += "<p>Your amount is " + userPocketMoney + "</p>";    
+    OUTPUT.innerHTML += "<p>Your amount is $" + userPocketMoney + "</p>";    
 }
 
 
