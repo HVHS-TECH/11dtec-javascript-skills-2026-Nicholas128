@@ -88,7 +88,8 @@ function start(){
 
 
     welcome()
-    getFormInput() 
+    getNameInput();
+    getAgeInput();
     writeLine()
     displayProducts(number4, number3, number250)
 }
