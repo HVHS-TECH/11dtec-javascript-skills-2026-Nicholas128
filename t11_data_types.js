@@ -7,6 +7,7 @@ Name of task: Data types
 
 //Variables
 var name = "Nicholas"
+
 var currentYear = 2026;
 var age = 15;
 var number16 = 16;
