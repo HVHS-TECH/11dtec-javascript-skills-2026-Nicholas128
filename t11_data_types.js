@@ -41,7 +41,7 @@ OUTPUT.innerHTML += "<p>Your age is " + userAge + "</p>";
 function getPocketMoneyInput() {
 const POCKETMONEY_FIELD = document.getElementById("pocketMoneyField");
 var userPocketMoney = POCKETMONEY_FIELD.value;
-OUTPUT.innerHTML += "<p>Your age is " + userAge + "</p>";    
+OUTPUT.innerHTML += "<p>Your amount is " + userPocketMoney + "</p>";    
 }
 
 
@@ -97,6 +97,7 @@ function start(){
     welcome()
     getNameInput();
     getAgeInput();
+    getPocketMoneyInput();
     writeLine()
     displayProducts(number4, number3, number250)
 }
