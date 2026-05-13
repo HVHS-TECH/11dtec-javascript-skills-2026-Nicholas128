@@ -38,6 +38,12 @@ var userAge = AGE_FIELD.value;
 OUTPUT.innerHTML += "<p>Your age is " + userAge + "</p>";    
 }
 
+function getPocketMoneyInput() {
+const POCKETMONEY_FIELD = document.getElementById("pocketMoneyField");
+var userPocketMoney = POCKETMONEY_FIELD.value;
+OUTPUT.innerHTML += "<p>Your age is " + userAge + "</p>";    
+}
+
 
 
 
