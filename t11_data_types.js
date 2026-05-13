@@ -22,10 +22,9 @@ var number3 = 3;
 var number250 = 2.50;
 
 
-
-
-
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
+    "<p>Age: " + userAge + "</p>" +
+    "<p>Pocket Money: $" + pocketMoney + "</p>";
 function getNameInput() {
 const NAME_FIELD = document.getElementById("nameField");
 var userName = NAME_FIELD.value;
