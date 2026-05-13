@@ -23,8 +23,6 @@ var number250 = 2.50;
 
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
-    "<p>Age: " + userAge + "</p>" +
-    "<p>Pocket Money: $" + pocketMoney + "</p>";
 function getNameInput() {
 const NAME_FIELD = document.getElementById("nameField");
 var userName = NAME_FIELD.value;
@@ -32,15 +30,17 @@ OUTPUT.innerHTML += "<p>Your name is " + userName + "</p>";
 }
 
 function getAgeInput() {
-const AGE_FIELD = document.getElementById("ageField");
-var userAge = AGE_FIELD.value;
-OUTPUT.innerHTML += "<p>Your age is " + userAge + "</p>";    
+    const AGE_FIELD = document.getElementById("ageField");
+    var userAge = AGE_FIELD.value;
+
+    OUTPUT.innerHTML += "<p>Your age is " + userAge + "</p>";    
 }
 
 function getPocketMoneyInput() {
-const POCKETMONEY_FIELD = document.getElementById("pocketMoneyField");
-var userPocketMoney = POCKETMONEY_FIELD.value;
-OUTPUT.innerHTML += "<p>Your amount is " + userPocketMoney + "</p>";    
+    const POCKETMONEY_FIELD = document.getElementById("pocketMoneyField");
+    var userPocketMoney = POCKETMONEY_FIELD.value;
+
+    OUTPUT.innerHTML += "<p>Your amount is " + userPocketMoney + "</p>";    
 }
 
 
