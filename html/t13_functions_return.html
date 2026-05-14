@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>T13-functions return</title>
+  <title>T13-functions-return</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -16,23 +16,47 @@
 **************************************************************-->
 
 <body>
-  <h1>T13-functions with return values</h1>
+  <h1>T13-functions-return</h1>
   <p>Open the console <code>(Ctrl-shift-i)</code> to see the messages.</p>
+<button onclick="start()">Start</button>
 
-  <p><br><br><i>Copy your HTML from the last task and keep building.</i><br><br><br><br></p>
+  
 
-  <div id="spaceForJavaScriptOutput">
+<form  onsubmit="return false;">
+  <label for="formName">Name:</label>
+  <input type="text" id="nameField" name="formName">
+<input type="submit" onClick="getNameInput()">
+</form>
+<form  onsubmit="return false;">
+  <label for="formAge">Your age:</label>
+  <input type="text" id="ageField" name="formAge">
+<input type="submit" onClick="getAgeInput()">
+</form>
+<form  onsubmit="return false;">
+  <label for="formPocketMoney">Your amount of money $:</label>
+  <input type="text" id="pocketMoneyField" name="formPocketMoney">
+<input type="submit" onClick="getPocketMoneyInput()">
+</form>
 
-    The output of your script will go here.
+
+
+<div id="spaceForJavaScriptOutput">
+
+
 
   </div>
 
 
   <script src="../t13_functions_return.js"></script>
 
+
 </body>
 
 </html>
 <!--*************************************************************
-  END OF T13_FUNCTIONS_RETURN.HTML
+  END OF T13_functions_return_HTML
 **************************************************************-->
+
+
+
+
