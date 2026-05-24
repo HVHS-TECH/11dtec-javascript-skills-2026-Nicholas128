@@ -21,7 +21,7 @@ var number4 = 4;
 var number3 = 3;
 var number250 = 2.50;
 var classArray = ["0", "1", "2", "3"];
-OUTPUT.innterHTML = "You loath chocolate"
+OUTPUT.innterHTML = "You loath chocolate"+
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 function getNameInput() {
