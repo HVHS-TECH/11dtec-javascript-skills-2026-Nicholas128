@@ -20,11 +20,7 @@ var answer3;
 var number4 = 4;
 var number3 = 3;
 var number250 = 2.50;
-var classArray = ["0", "1", "2", "3"];
-OUTPUT.innerHTML = "You loath chocolate"+classArray[0];
-OUTPUT.innerHTML = "Chocolate is meh"+classArray[1];
-OUTPUT.innerHTML = "Chocolate is pretty good"+classArray[2];
-OUTPUT.innerHTML = "Chocolate is the best thing EVER!!!"[3];
+
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 function getNameInput() {
@@ -115,13 +111,16 @@ function start(){
     OUTPUT.innerHTML += "<p>You spend half of your money, now you have $" + answer3 + "</p>";
 
 
+
     welcome()
+    scale();
     getNameInput();
     getAgeInput();
     getPocketMoneyInput();
     calculateChange();
     writeLine()
     displayProducts(number4, number3, number250)
+   
 }
 
 function writeLine(){
@@ -130,6 +129,15 @@ function writeLine(){
 }
 function welcome(){
     OUTPUT.innerHTML += "<p>Welcome to the shop</p>"
+}
+
+function scale(){
+    var classArray = ["0", "1", "2", "3"];
+    OUTPUT.innerHTML = "<p>On a scale of 0-3 how much do you like chocolate</p>"
+    OUTPUT.innerHTML = "You loath chocolate"+classArray[0];
+    OUTPUT.innerHTML = "Chocolate is meh"+classArray[1];
+    OUTPUT.innerHTML = "Chocolate is pretty good"+classArray[2];
+    OUTPUT.innerHTML = "Chocolate is the best thing EVER!!!"[3];
 }
 
 function displayProducts(_number4, _number3,_number250 ){
@@ -155,6 +163,7 @@ function calculateChange(_money, _price) {
     var change = calculateChange(userPocketMoney, 4);
 
 OUTPUT.innerHTML += "<p>You will get $" + change + " change</p>";
+
 }
 
 
