@@ -58,12 +58,7 @@ function getPocketMoneyInput() {
 }
 
 
-function calculateChange(_money, _price){
-var price = calculateChange (4);
-var money = calculateChange (userPocketMoney);
-var change = calculateChange (_money, _price)
-OUTPUT.innerHTML += "<p>Your change is $" +money+ "</p>"
-}
+
 
 
 
@@ -139,13 +134,12 @@ OUTPUT.innerHTML += "<p>Chips: $" +_number3+ "</p>"
 OUTPUT.innerHTML += "<p>Drink: $" +_number250+ "</p>"
 }
 
+
 function calculateChange(_money, _price){
 var price = calculateChange (4);
 var money = calculateChange (userPocketMoney);
 var change = calculateChange (_money, _price)
 OUTPUT.innerHTML += "<p>Your change is $" +money+ "</p>"
 }
-
-
 
 
