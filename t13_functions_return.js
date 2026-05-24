@@ -47,6 +47,9 @@ function getPocketMoneyInput() {
     } else {
         OUTPUT.innerHTML += "<p>You can't afford a Chocolate Bar</p>";
     }
+    if(userPocketMoney >4) {
+        OUTPUT.innerHTML += "<p>Your change is "+money+ "</p>"
+    }
 }
 
 
