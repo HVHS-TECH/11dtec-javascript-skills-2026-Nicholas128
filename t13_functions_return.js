@@ -42,14 +42,24 @@ function getPocketMoneyInput() {
 
     OUTPUT.innerHTML += "<p>Your amount is $" + userPocketMoney + "</p>";
 
-    if (userPocketMoney >= 4) {
+    const chocolatePrice = 4;
+
+    if (userPocketMoney >= chocolatePrice) {
         OUTPUT.innerHTML += "<p>You can afford a Chocolate Bar</p>";
+
+        
+        var change = calculateChange(userPocketMoney, chocolatePrice);
+
+        OUTPUT.innerHTML += "<p>You will get $" + change.toFixed(2) + " change</p>";
+
     } else {
         OUTPUT.innerHTML += "<p>You can't afford a Chocolate Bar</p>";
     }
-    if(userPocketMoney >4) {
-        OUTPUT.innerHTML += "<p>Your change is "+money+ "</p>"
-    }
+}
+
+
+function calculateChange(_money, _price) {
+    return _money - _price;
 }
 
 
