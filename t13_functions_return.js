@@ -50,7 +50,7 @@ function getPocketMoneyInput() {
         
         var change = calculateChange(userPocketMoney, chocolatePrice);
 
-        OUTPUT.innerHTML += "<p>You will get $" + change.toFixed(2) + " change</p>";
+        OUTPUT.innerHTML += "<p>You will get $" + change + " change</p>";
 
     } else {
         OUTPUT.innerHTML += "<p>You can't afford a Chocolate Bar</p>";
@@ -59,7 +59,7 @@ function getPocketMoneyInput() {
 
 
 function calculateChange(_money, _price) {
-    return _money - _price;
+     _money - _price;
 }
 
 
