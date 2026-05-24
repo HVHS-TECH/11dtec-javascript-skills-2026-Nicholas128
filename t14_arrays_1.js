@@ -1,5 +1,5 @@
 /******************
-Name of task: functions return
+Name of task: arrays_1
 ******************/
 
  
@@ -71,7 +71,7 @@ function getPocketMoneyInput() {
 *******************/
 
 
-console.log(  "Running T13 functions return");
+console.log(  "Running T14 arrays 1");
 console.log( "hello world");
 console.log( "hi"+ name)
 console.log( "as of "+ currentYear) 
