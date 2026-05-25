@@ -58,6 +58,7 @@ function getPocketMoneyInput() {
 
     function scale(){
     var classArray = ["0", "1", "2", "3"];
+    OUTPUT.innerHTML = classArray;
     var choice = CHOOSE_FIELD.value;
     OUTPUT.innerHTML = "You choose: "+classArray[choice]+"<br>";
     OUTPUT.innerHTML = "<p>On a scale of 0-3 how much do you like chocolate</p>"
