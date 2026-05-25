@@ -127,7 +127,6 @@ function start(){
     getNameInput();
     getAgeInput();
     getPocketMoneyInput();
-    scale();
     calculateChange();
     writeLine()
     displayProducts(number4, number3, number250)
