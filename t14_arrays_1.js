@@ -56,17 +56,7 @@ function getPocketMoneyInput() {
         OUTPUT.innerHTML += "<p>You can't afford a Chocolate Bar</p>";
     }
 
-    function scale(){
-    var classArray = ["0", "1", "2", "3"];
-    var choice = CHOOSE_FIELD.value;
-    OUTPUT.innerHTML = classArray;
-    OUTPUT.innerHTML = "<p>On a scale of 0-3 how much do you like chocolate</p>"
-    OUTPUT.innerHTML = "You loath chocolate"+classArray[0];
-    OUTPUT.innerHTML = "Chocolate is meh"+classArray[1];
-    OUTPUT.innerHTML = "Chocolate is pretty good"+classArray[2];
-    OUTPUT.innerHTML = "Chocolate is the best thing EVER!!!"+classArray[3];
-    OUTPUT.innerHTML = "You chose: "+classArray[choice]+"<br>";
-}
+
 }
 
 
@@ -170,4 +160,15 @@ OUTPUT.innerHTML += "<p>You will get $" + change + " change</p>";
 
 }
 
+    function scale(){
+    var classArray = ["0", "1", "2", "3"];
+    var choice = CHOOSE_FIELD.value;
+    OUTPUT.innerHTML = classArray;
+    OUTPUT.innerHTML = "<p>On a scale of 0-3 how much do you like chocolate</p>"
+    OUTPUT.innerHTML = "You loath chocolate"+classArray[0];
+    OUTPUT.innerHTML = "Chocolate is meh"+classArray[1];
+    OUTPUT.innerHTML = "Chocolate is pretty good"+classArray[2];
+    OUTPUT.innerHTML = "Chocolate is the best thing EVER!!!"+classArray[3];
+    OUTPUT.innerHTML = "You chose: "+classArray[choice]+"<br>";
+}
 
