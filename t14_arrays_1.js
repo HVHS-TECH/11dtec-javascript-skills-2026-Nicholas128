@@ -64,7 +64,7 @@ function getPocketMoneyInput() {
     OUTPUT.innerHTML = "You loath chocolate"+classArray[0];
     OUTPUT.innerHTML = "Chocolate is meh"+classArray[1];
     OUTPUT.innerHTML = "Chocolate is pretty good"+classArray[2];
-    OUTPUT.innerHTML = "Chocolate is the best thing EVER!!!"[3];
+    OUTPUT.innerHTML = "Chocolate is the best thing EVER!!!"+classArray[3];
 }
 }
 
