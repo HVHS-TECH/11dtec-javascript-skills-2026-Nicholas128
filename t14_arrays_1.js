@@ -162,7 +162,7 @@ OUTPUT.innerHTML += "<p>You will get $" + change + " change</p>";
 
     function scale(){
     const CHOOSE_FIELD = document.getElementById("chooseField");
-    var classArray = ["You loath chocolate", "1", "2", "3"];
+    var classArray = ["0", "1", "2", "3"];
     var choice = CHOOSE_FIELD.value;
     OUTPUT.innerHTML += classArray;
     OUTPUT.innerHTML += "You loath chocolate"+classArray[0];
