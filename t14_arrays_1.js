@@ -56,8 +56,9 @@ function getPocketMoneyInput() {
         OUTPUT.innerHTML += "<p>You can't afford a Chocolate Bar</p>";
     }
 
-    const OUTPUT = document.getElementById("scaleField");
     function getScaleInput(){
+    const SCALE_FIELD = document.getElementById("scaleField");
+    var userScale = SCALE_FIELD.value;
     var classArray = ["0", "1", "2", "3"];
     var choice = CHOOSE_FIELD.value;
     OUTPUT.innerHTML = "You choose: "+classArray[choice]+"<br>";
