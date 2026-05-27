@@ -70,7 +70,7 @@ function getPocketMoneyInput() {
 
 /******************
  Main code
-*******************/
+*******************/ 
 
 
 console.log("Running T15-for_loop");
@@ -86,7 +86,7 @@ console.log("you have $" + pocketMoney)
 answer3 = pocketMoney - number200;
 console.log("You spend half of your money, now you have $" + answer3)
 
-
+ 
 
 
 
