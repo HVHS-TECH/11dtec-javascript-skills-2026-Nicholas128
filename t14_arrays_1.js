@@ -2,15 +2,15 @@
 Name of task: arrays_1
 ******************/
 
- 
- 
+
+
 
 //Variables
 var name = "Nicholas"
 var currentYear = 2026;
 var age = 15;
 var number16 = 16;
-var number10 = 10; 
+var number10 = 10;
 var answer;
 var answer2;
 var isStudent = true;
@@ -24,16 +24,16 @@ var number250 = 2.50;
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 function getNameInput() {
-const NAME_FIELD = document.getElementById("nameField");
-var userName = NAME_FIELD.value;
-OUTPUT.innerHTML += "<p>Your name is " + userName + "</p>";
+    const NAME_FIELD = document.getElementById("nameField");
+    var userName = NAME_FIELD.value;
+    OUTPUT.innerHTML += "<p>Your name is " + userName + "</p>";
 }
 
 function getAgeInput() {
     const AGE_FIELD = document.getElementById("ageField");
     var userAge = AGE_FIELD.value;
 
-    OUTPUT.innerHTML += "<p>Your age is " + userAge + "</p>";    
+    OUTPUT.innerHTML += "<p>Your age is " + userAge + "</p>";
 }
 
 function getPocketMoneyInput() {
@@ -47,7 +47,7 @@ function getPocketMoneyInput() {
     if (userPocketMoney >= chocolatePrice) {
         OUTPUT.innerHTML += "<p>You can afford a Chocolate Bar</p>";
 
-        
+
         var change = calculateChange(userPocketMoney, chocolatePrice);
 
         OUTPUT.innerHTML += "<p>You will get $" + change + " change</p>";
@@ -73,18 +73,18 @@ function getPocketMoneyInput() {
 *******************/
 
 
-console.log(  "Running T14 arrays 1");
-console.log( "hello world");
-console.log( "hi"+ name)
-console.log( "as of "+ currentYear) 
-console.log("you are "+ age + " years old")
+console.log("Running T14 arrays 1");
+console.log("hello world");
+console.log("hi" + name)
+console.log("as of " + currentYear)
+console.log("you are " + age + " years old")
 answer = currentYear - number16;
-console.log( "you were born in "+ answer)
+console.log("you were born in " + answer)
 answer2 = age + number10;
-console.log( "in 10 years you will be " + answer2)
-console.log("you have $"+ pocketMoney)
+console.log("in 10 years you will be " + answer2)
+console.log("you have $" + pocketMoney)
 answer3 = pocketMoney - number200;
-console.log( "You spend half of your money, now you have $" + answer3)
+console.log("You spend half of your money, now you have $" + answer3)
 
 
 
@@ -93,9 +93,9 @@ console.log( "You spend half of your money, now you have $" + answer3)
 /*******************
 Functions
 *******************/
-function start(){
-    
-    
+function start() {
+
+
     OUTPUT.innerHTML = "<p>Hello world</p>";
     OUTPUT.innerHTML += "<p>Hello " + name + "</p>";
     OUTPUT.innerHTML += "<p>As of " + currentYear + "</p>";
@@ -121,31 +121,31 @@ function start(){
     calculateChange();
     writeLine()
     displayProducts(number4, number3, number250)
-   
+
 }
 
-function writeLine(){
+function writeLine() {
     OUTPUT.innerHTML += "<p>Less code matters</p>";
 
 }
-function welcome(){
+function welcome() {
     OUTPUT.innerHTML += "<p>Welcome to the shop</p>"
 }
 
 
 
-function displayProducts(_number4, _number3,_number250 ){
-OUTPUT.innerHTML += "<p>Chocolate Bar: $" +_number4+ "</p>"
-OUTPUT.innerHTML += "<p>Chips: $" +_number3+ "</p>"
-OUTPUT.innerHTML += "<p>Drink: $" +_number250+ "</p>"
+function displayProducts(_number4, _number3, _number250) {
+    OUTPUT.innerHTML += "<p>Chocolate Bar: $" + _number4 + "</p>"
+    OUTPUT.innerHTML += "<p>Chips: $" + _number3 + "</p>"
+    OUTPUT.innerHTML += "<p>Drink: $" + _number250 + "</p>"
 }
 
 
-function calculateChange(_money, _price){
-var price = calculateChange(4);
-var money = calculateChange(userPocketMoney);
-var change = calculateChange(_money, _price)
-OUTPUT.innerHTML += "<p>Your change is $" +money+ "</p>"
+function calculateChange(_money, _price) {
+    var price = calculateChange(4);
+    var money = calculateChange(userPocketMoney);
+    var change = calculateChange(_money, _price)
+    OUTPUT.innerHTML += "<p>Your change is $" + money + "</p>"
 }
 
 
@@ -156,21 +156,21 @@ function calculateChange(_money, _price) {
     return change;
     var change = calculateChange(userPocketMoney, 4);
 
-OUTPUT.innerHTML += "<p>You will get $" + change + " change</p>";
+    OUTPUT.innerHTML += "<p>You will get $" + change + " change</p>";
 
 }
 
-    function scale(){
+function scale() {
     const CHOOSE_FIELD = document.getElementById("chooseField");
     var classArray = ["0", "1", "2", "3"];
-    
+
     var choice = CHOOSE_FIELD.value;
     OUTPUT.innerHTML += classArray;
-    OUTPUT.innerHTML += "You loath chocolate"+classArray[0];
-    OUTPUT.innerHTML += "Chocolate is meh"+classArray[1];
-    OUTPUT.innerHTML += "Chocolate is pretty good"+classArray[2];
-    OUTPUT.innerHTML += "Chocolate is the best thing EVER!!!"+classArray[3];
-    OUTPUT.innerHTML += "You chose: "+classArray[choice]+"<br>";
-    
+    OUTPUT.innerHTML += "You loath chocolate" + classArray[0];
+    OUTPUT.innerHTML += "Chocolate is meh" + classArray[1];
+    OUTPUT.innerHTML += "Chocolate is pretty good" + classArray[2];
+    OUTPUT.innerHTML += "Chocolate is the best thing EVER!!!" + classArray[3];
+    OUTPUT.innerHTML += "You chose: " + classArray[choice] + "<br>";
+
 }
 
