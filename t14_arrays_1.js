@@ -170,5 +170,6 @@ OUTPUT.innerHTML += "<p>You will get $" + change + " change</p>";
     OUTPUT.innerHTML += "Chocolate is pretty good"+classArray[2];
     OUTPUT.innerHTML += "Chocolate is the best thing EVER!!!"+classArray[3];
     OUTPUT.innerHTML += "You chose: "+classArray[choice]+"<br>";
+    
 }
 
