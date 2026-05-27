@@ -165,11 +165,10 @@ OUTPUT.innerHTML += "<p>You will get $" + change + " change</p>";
     var classArray = ["0", "1", "2", "3"];
     var choice = CHOOSE_FIELD.value;
     OUTPUT.innerHTML += classArray;
-    OUTPUT.innerHTML += "You chose: "+classArray[choice]+"<br>";
     OUTPUT.innerHTML += "You loath chocolate"+classArray[0];
     OUTPUT.innerHTML += "Chocolate is meh"+classArray[1];
     OUTPUT.innerHTML += "Chocolate is pretty good"+classArray[2];
     OUTPUT.innerHTML += "Chocolate is the best thing EVER!!!"+classArray[3];
-   
+    OUTPUT.innerHTML += "You chose: "+classArray[choice]+"<br>";
 }
 
