@@ -179,3 +179,7 @@ if (choice == 0) {
     }
 
 }
+
+function number() {
+const NUMBER_FIELD = document.getElementById("numberField");  
+}
