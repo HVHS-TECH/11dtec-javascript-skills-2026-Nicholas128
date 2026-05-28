@@ -183,6 +183,7 @@ if (choice == 0) {
 function number() {
 var number100 = 100;
 var verses = number100 - enteredNumber;
+console.log (+enteredNumber+ "bottels of milk on the wall." +enteredNumber+ "bottles of milk on the wall. Take one done pass it around." +enteredNumber+ - +number1+);
 const NUMBER_FIELD = document.getElementById("numberField");  
 console.log("Starting loop");
 for (var  i=100; i>=0; i--) {
@@ -191,8 +192,5 @@ console.log("current count: "+i);
 console.log("loop stopped");
 }
 
-100 bottles of milk on the wall
-100 bottles of milk on the wall
-take one done pass it around
-99 bottles of milk on the wall
+
 
