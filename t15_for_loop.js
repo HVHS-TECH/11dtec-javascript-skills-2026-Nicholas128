@@ -161,7 +161,7 @@ function calculateChange(_money, _price) {
 }
 
 function scale() {
-    const CHOOSE_FIELD = document.getElementById("chooseField");
+    const CHOOSE_FIELD = document.getElementById("chooseField");   
     var classArray = ["0", "1", "2", "3"];
 
     var choice = CHOOSE_FIELD.value;
