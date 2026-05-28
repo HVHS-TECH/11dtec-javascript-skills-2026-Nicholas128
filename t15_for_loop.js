@@ -189,3 +189,8 @@ for (count = 0; count < 99; count++) {
 console.log("loop stopped");
 }
 
+100 bottles of milk on the wall
+100 bottles of milk on the wall
+take one done pass it around
+99 bottles of milk on the wall
+
