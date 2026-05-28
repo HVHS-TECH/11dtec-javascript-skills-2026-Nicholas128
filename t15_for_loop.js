@@ -181,6 +181,7 @@ if (choice == 0) {
 }
 
 function number() {
+var number100 = 100;
 const NUMBER_FIELD = document.getElementById("numberField");  
 console.log("Starting loop");
 for (var  i=100; i>=0; i--) {
