@@ -183,8 +183,8 @@ if (choice == 0) {
 function number() {
 const NUMBER_FIELD = document.getElementById("numberField");  
 console.log("Starting loop");
-for (count = 0; count < 99; count++) {
-    console.log("current count; " + count);
+for (var  i=100; i>=0; i--) {
+console.log("current count: "+i);
 }
 console.log("loop stopped");
 }
