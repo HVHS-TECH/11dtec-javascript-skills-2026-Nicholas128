@@ -201,7 +201,7 @@ if (choice == 1) {
 }
 
 else if (choice == 2) {
-    console.log(+number2+ "bottels of milk on the wall." +number2+ "bottles of milk on the wall. Take one done pass it around." +number2 - number1+ "bottels of milk on the wall");
+    OUTPUT.innerHTML = +number2+ "bottels of milk on the wall." +number2+ "bottles of milk on the wall. Take one done pass it around." +number2 - number1+ "bottels of milk on the wall";
 }
 
 
