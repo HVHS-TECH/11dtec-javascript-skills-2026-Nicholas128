@@ -194,18 +194,15 @@ function numberSong() {
     let next = i - 1;
 
     lyrics += i + " bottles of milk on the wall, ";
-    lyrics += i + " bottles of milk.\n";
+    lyrics += i + " bottles of milk.<br>";
     lyrics += "Take one down, pass it around, ";
 
     if (next > 0) {
-      lyrics += next + " bottles of milk on the wall.\n\n";
+      lyrics += next + " bottles of milk on the wall.<br><br>";
     } else {
-      lyrics += "no more bottles of milk on the wall.\n\n";
+      lyrics += "no more bottles of milk on the wall.<br><br>";
     }
   }
-
-  OUTPUT.innerHTML = lyrics.replace(/\n/g, "<br>");
-}
 
 
 
