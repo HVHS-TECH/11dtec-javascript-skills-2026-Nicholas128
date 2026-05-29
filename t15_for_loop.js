@@ -196,7 +196,7 @@ var number90 = 90;
 var number2 = 2;
 var number1 = 1;
 var choice = NUMBER_FIELD.value;
-if (choice == 1) {
+if (choice == 100) {
     OUTPUT.innerHTML = +number1+ "bottels of milk on the wall." +number1+ "bottles of milk on the wall. Take one done pass it around.";
 }
 
@@ -207,6 +207,14 @@ else if (choice == 2) {
 
 for (let i = enteredNumber; i > 0; i--) {
 
+    let next = i - 1;
+
+    if (choice == 100) {
+    OUTPUT.innerHTML = +number100+ "bottels of milk on the wall." +number100+ "bottles of milk on the wall. Take one done pass it around."; +number1--
+} 
+else (choice == >100) {
+
+}
 const NUMBER_FIELD = document.getElementById("numberField");  
 
 }
