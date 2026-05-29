@@ -180,43 +180,6 @@ if (choice == 0) {
 
 }
 
-function number() {
-var enteredNumber
-var number100 = 100;
-var number99 = 99;
-var number98 = 98;
-var number97 = 97;
-var number96 = 96;
-var number95 = 95;
-var number94 = 94;
-var number93 = 93;
-var number92 = 92;
-var number91 = 91;
-var number90 = 90;
-var number2 = 2;
-var number1 = 1;
-var choice = NUMBER_FIELD.value;
-if (choice == 100) {
-    OUTPUT.innerHTML = +number1+ "bottels of milk on the wall." +number1+ "bottles of milk on the wall. Take one done pass it around.";
-}
 
-else if (choice == 2) {
-    OUTPUT.innerHTML = +number2+ "bottels of milk on the wall." +number2+ "bottles of milk on the wall. Take one done pass it around." +number2 - number1+ "bottels of milk on the wall";
-}
-
-
-for (let i = enteredNumber; i > 0; i--) {
-
-    let next = i - 1;
-
-    if (choice == 100) {
-    OUTPUT.innerHTML = +number100+ "bottels of milk on the wall." +number100+ "bottles of milk on the wall. Take one done pass it around."; +number1--
-} 
-else (choice == >100) {
-
-}
-const NUMBER_FIELD = document.getElementById("numberField");  
-
-}
 
 
