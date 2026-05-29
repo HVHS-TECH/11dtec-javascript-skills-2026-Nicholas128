@@ -180,6 +180,32 @@ if (choice == 0) {
 
 }
 
+function numberSong() {
+
+  const NUMBER_FIELD = document.getElementById("numberField");
+  const OUTPUT = document.getElementById("output");
+
+  let enteredNumber = parseInt(NUMBER_FIELD.value);
+
+  let lyrics = "";
+
+  for (let i = enteredNumber; i > 0; i--) {
+
+    let next = i - 1;
+
+    lyrics += i + " bottles of milk on the wall, ";
+    lyrics += i + " bottles of milk.\n";
+    lyrics += "Take one down, pass it around, ";
+
+    if (next > 0) {
+      lyrics += next + " bottles of milk on the wall.\n\n";
+    } else {
+      lyrics += "no more bottles of milk on the wall.\n\n";
+    }
+  }
+
+  OUTPUT.innerHTML = lyrics.replace(/\n/g, "<br>");
+}
 
 
 
