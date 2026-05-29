@@ -183,7 +183,9 @@ if (choice == 0) {
 function numberSong() {
 
   const NUMBER_FIELD = document.getElementById("numberField");
-  const OUTPUT = document.getElementById("output");
+
+
+  const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 
   let enteredNumber = parseInt(NUMBER_FIELD.value);
 
@@ -205,4 +207,5 @@ function numberSong() {
   }
 
 
-
+  OUTPUT.innerHTML += lyrics;
+}
