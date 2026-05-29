@@ -205,14 +205,10 @@ else if (choice == 2) {
 }
 
 
-var verses = number100 - enteredNumber;
+for (let i = enteredNumber; i > 0; i--) {
 
 const NUMBER_FIELD = document.getElementById("numberField");  
-console.log("Starting loop");
-for (var  i=100; i>=0; i--) {
-console.log("current count: "+i);
-}
-console.log("loop stopped");
+
 }
 
 
