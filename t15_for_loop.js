@@ -212,4 +212,3 @@ const NUMBER_FIELD = document.getElementById("numberField");
 }
 
 
-
