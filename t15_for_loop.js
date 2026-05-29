@@ -197,7 +197,7 @@ var number2 = 2;
 var number1 = 1;
 var choice = NUMBER_FIELD.value;
 if (choice == 1) {
-    console.log (+number1+ "bottels of milk on the wall." +number1+ "bottles of milk on the wall. Take one done pass it around.");
+    OUTPUT.innerHTML = +number1+ "bottels of milk on the wall." +number1+ "bottles of milk on the wall. Take one done pass it around.";
 }
 
 else if (choice == 2) {
