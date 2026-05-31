@@ -209,3 +209,7 @@ function numberSong() {
 
   OUTPUT.innerHTML += lyrics;
 }
+
+function addShoppingItem {
+    
+}
