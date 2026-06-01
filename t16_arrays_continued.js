@@ -236,10 +236,8 @@ function addShoppingItem() {
     else if (item == "wheat") {
         OUTPUT.innerHTML = "You have just added wheat to the shopping list";
     }
-OUTPUT.innerHTML = "These are the items on your shopping list:<br><br>";
 
-    for (let i = 0; i < shoppingList.length; i++) {
-        OUTPUT.innerHTML += shoppingList[i] + "<br>"; 
+
   }
 
       
