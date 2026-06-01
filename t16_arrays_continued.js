@@ -214,32 +214,34 @@ function numberSong() {
 function addShoppingItem() {
     
   const item = document.getElementById("addShoppingItemField").value;
-
   const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
-
- 
 
   var classArray = ["eggs", "butter", "milk", "wheat"];
 
-  for(let i=0; i<classArray.length; i++){
-
-    OUTPUT.innerHTML += "list "+ i +": "+classArray[i]+"<br>";
+  let outputText = "";
 
 
-     if (item == "eggs") {
-        OUTPUT.innerHTML = "You have just added eggs to the shopping list";
-    }
-    else if (item == "butter") {
-        OUTPUT.innerHTML = "You have just added butter to the shopping list";
-    }
-    else if (item == "milk") {
-        OUTPUT.innerHTML = "You have just added milk to the shopping list";
-    }
-    else if (item == "wheat") {
-        OUTPUT.innerHTML = "You have just added wheat to the shopping list";
-    }
-
-
+  if (item == "eggs") {
+    outputText += "You have just added eggs to the shopping list<br><br>";
   }
+  else if (item == "butter") {
+    outputText += "You have just added butter to the shopping list<br><br>";
+  }
+  else if (item == "milk") {
+    outputText += "You have just added milk to the shopping list<br><br>";
+  }
+  else if (item == "wheat") {
+    outputText += "You have just added wheat to the shopping list<br><br>";
+  }
+
+
+  outputText += "These are the items on your shopping list:<br>";
+
+
+  for (let i = 0; i < classArray.length; i++) {
+    outputText += "list " + i + ": " + classArray[i] + "<br>";
+  }
+
+  OUTPUT.innerHTML = outputText;
       
 }
