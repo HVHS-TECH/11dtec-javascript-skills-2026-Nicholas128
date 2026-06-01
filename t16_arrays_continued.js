@@ -210,8 +210,9 @@ function numberSong() {
   OUTPUT.innerHTML += lyrics;
 }
 
-function addShoppingItem {
+function addShoppingItem() {
   const NUMBER_FIELD = document.getElementById("addShoppingItemField");
+
   const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
   var classArray = ["eggs", "butter", "milk", "wheat"];
   for(let i=0; i<classArray.length; i++){
