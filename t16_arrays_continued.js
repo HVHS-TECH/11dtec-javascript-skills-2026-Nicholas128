@@ -222,7 +222,7 @@ function addShoppingItem() {
 
     OUTPUT.innerHTML += "list "+ i +": "+classArray[i]+"<br>";
 
-    if (addShoppingItem == eggs) {
+     (item == "eggs") {
         OUTPUT.innerHTML = "You have added eggs to the shopping list";
     }
     else if (addShoppingItem == butter) {
