@@ -220,6 +220,8 @@ function addShoppingItem() {
 
   var classArray = ["eggs", "butter", "milk", "wheat"];
 
+   outputText += "These are the items on your shopping list:<br>";
+
   for(let i=0; i<classArray.length; i++){
 
     OUTPUT.innerHTML += "list "+ i +": "+classArray[i]+"<br>";
