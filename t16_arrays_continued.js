@@ -211,33 +211,28 @@ function numberSong() {
 }
 
 function addShoppingItem() {
-    
-  const item = document.getElementById("addShoppingItemField").value;
 
+  const item = document.getElementById("addShoppingItemField").value;
   const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 
   OUTPUT.innerHTML = "<p>Out of eggs, butter, milk and wheat, what would you like to add to the shopping list?</p>";
 
-
   var classArray = ["eggs", "butter", "milk", "wheat"];
 
+  for (let i = 0; i < classArray.length; i++) {
+    OUTPUT.innerHTML += "list " + i + ": " + classArray[i] + "<br>";
+  }
 
-for(let i=0; i<classArray.length; i++){
-
-OUTPUT.innerHTML += "list "+ i +": "+classArray[i]+"<br>";
-
-     if (item == "eggs") {
-        OUTPUT.innerHTML += "<p>You have added eggs to the shopping list</p>";
-    }
-    else if (item == "butter") {
-        OUTPUT.innerHTML = "You have added butter to the shopping list";
-    }
-    else if (item == "milk") {
-        OUTPUT.innerHTML = "You have added milk to the shopping list";
-    }
-    else if (item == "wheat") {
-        OUTPUT.innerHTML = "You have added wheat to the shopping list";
-    }
-
+  if (item == "eggs") {
+    OUTPUT.innerHTML += "<p>You have added eggs to the shopping list</p>";
+  }
+  else if (item == "butter") {
+    OUTPUT.innerHTML += "<p>You have added butter to the shopping list</p>";
+  }
+  else if (item == "milk") {
+    OUTPUT.innerHTML += "<p>You have added milk to the shopping list</p>";
+  }
+  else if (item == "wheat") {
+    OUTPUT.innerHTML += "<p>You have added wheat to the shopping list</p>";
   }
 }
