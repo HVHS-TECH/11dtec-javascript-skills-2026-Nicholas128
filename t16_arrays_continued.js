@@ -223,10 +223,11 @@ function addShoppingItem() {
   for(let i=0; i<classArray.length; i++){
 
     OUTPUT.innerHTML += "list "+ i +": "+classArray[i]+"<br>";
+   
+    if (item == "eggs") {
+    OUTPUT.innerHTML += "<p>You have added eggs to the shopping list</p>";
+}
 
-     if (item == "eggs") {
-        OUTPUT.innerHTML = "You have added eggs to the shopping list";
-    }
     else if (item == "butter") {
         OUTPUT.innerHTML = "You have added butter to the shopping list";
     }
