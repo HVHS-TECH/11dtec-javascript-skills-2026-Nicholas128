@@ -224,13 +224,6 @@ function addShoppingItem() {
 
     OUTPUT.innerHTML += "list "+ i +": "+classArray[i]+"<br>";
 
-     var outputText = "These are the items on your shopping list:<br>";
-
-  
-    outputText += classArray[i] + "<br>";
-  
-
-    OUTPUT.innerHTML = outputText;
 
      if (item == "eggs") {
         OUTPUT.innerHTML = "You have just added eggs to the shopping list";
