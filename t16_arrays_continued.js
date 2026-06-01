@@ -216,22 +216,24 @@ function addShoppingItem() {
 
   const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 
+  OUTPUT.innerHTML = "<p>Out of eggs, butter, milk and wheat, what would you like to add to the list?</p>"
+
   var classArray = ["eggs", "butter", "milk", "wheat"];
 
   for(let i=0; i<classArray.length; i++){
 
     OUTPUT.innerHTML += "list "+ i +": "+classArray[i]+"<br>";
 
-     (item == "eggs") {
+     if (item == "eggs") {
         OUTPUT.innerHTML = "You have added eggs to the shopping list";
     }
-    else if (addShoppingItem == butter) {
+    else if (item == "butter") {
         OUTPUT.innerHTML = "You have added butter to the shopping list";
     }
-    else if (addShoppingItem == milk) {
+    else if (item == "milk") {
         OUTPUT.innerHTML = "You have added milk to the shopping list";
     }
-    else if (addShoppingItem == wheat) {
+    else if (item == "wheat") {
         OUTPUT.innerHTML = "You have added wheat to the shopping list";
     }
 
