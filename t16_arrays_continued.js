@@ -225,16 +225,16 @@ function addShoppingItem() {
     OUTPUT.innerHTML += "list "+ i +": "+classArray[i]+"<br>";
 
      if (item == "eggs") {
-        OUTPUT.innerHTML = "You have added eggs to the shopping list";
+        OUTPUT.innerHTML = "You have just added eggs to the shopping list";
     }
     else if (item == "butter") {
-        OUTPUT.innerHTML = "You have added butter to the shopping list";
+        OUTPUT.innerHTML = "You have just added butter to the shopping list";
     }
     else if (item == "milk") {
-        OUTPUT.innerHTML = "You have added milk to the shopping list";
+        OUTPUT.innerHTML = "You have just added milk to the shopping list";
     }
     else if (item == "wheat") {
-        OUTPUT.innerHTML = "You have added wheat to the shopping list";
+        OUTPUT.innerHTML = "You have just added wheat to the shopping list";
     }
 
   }
