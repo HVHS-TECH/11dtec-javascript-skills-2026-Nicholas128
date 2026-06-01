@@ -187,13 +187,13 @@ function numberSong() {
 
   const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 
-  let enteredNumber = parseInt(NUMBER_FIELD.value);
+  var enteredNumber = parseInt(NUMBER_FIELD.value);
 
-  let lyrics = "";
+  var lyrics = "";
 
-  for (let i = enteredNumber; i > 0; i--) {
+  for (var i = enteredNumber; i > 0; i--) {
 
-    let next = i - 1;
+    var next = i - 1;
 
     lyrics += i + " bottles of milk on the wall, ";
     lyrics += i + " bottles of milk.<br>";

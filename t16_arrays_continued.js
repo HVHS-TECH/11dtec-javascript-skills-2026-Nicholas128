@@ -218,7 +218,7 @@ function addShoppingItem() {
 
   var classArray = ["eggs", "butter", "milk", "wheat"];
 
-  let outputText = "";
+  var outputText = "";
 
 
   if (item == "eggs") {
@@ -238,7 +238,7 @@ function addShoppingItem() {
   outputText += "These are the items on your shopping list:<br>";
 
 
-  for (let i = 0; i < classArray.length; i++) {
+  for (var i = 0; i < classArray.length; i++) {
     outputText += "list " + i + ": " + classArray[i] + "<br>";
   }
 
