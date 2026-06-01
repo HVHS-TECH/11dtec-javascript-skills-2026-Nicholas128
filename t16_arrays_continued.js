@@ -211,7 +211,8 @@ function numberSong() {
 }
 
 function addShoppingItem() {
-  const NUMBER_FIELD = document.getElementById("addShoppingItemField");
+    
+  const item = document.getElementById("addShoppingItemField").value;
 
   const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 
