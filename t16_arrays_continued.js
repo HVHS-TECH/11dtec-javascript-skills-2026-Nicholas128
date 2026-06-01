@@ -210,48 +210,36 @@ function numberSong() {
   OUTPUT.innerHTML += lyrics;
 }
 
-function addShoppingItem() {
-var classArray = ["eggs", "butter", "milk", "wheat"];
 
 function addShoppingItem() {
-
+    
   const item = document.getElementById("addShoppingItemField").value;
+
   const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 
-  let outputText = "";
+ 
+
+  var classArray = ["eggs", "butter", "milk", "wheat"];
+
+  for(let i=0; i<classArray.length; i++){
+
+    OUTPUT.innerHTML += "list "+ i +": "+classArray[i]+"<br>";
 
 
-
-    if (item == "eggs") {
-      outputText += "You have just added eggs to the shopping list<br><br>";
+     if (item == "eggs") {
+        OUTPUT.innerHTML = "You have just added eggs to the shopping list";
     }
     else if (item == "butter") {
-      outputText += "You have just added butter to the shopping list<br><br>";
+        OUTPUT.innerHTML = "You have just added butter to the shopping list";
     }
     else if (item == "milk") {
-      outputText += "You have just added milk to the shopping list<br><br>";
+        OUTPUT.innerHTML = "You have just added milk to the shopping list";
     }
     else if (item == "wheat") {
-      outputText += "You have just added wheat to the shopping list<br><br>";
-    }
-    else {
-      outputText += "You have just added " + item + " to the shopping list<br><br>";
+        OUTPUT.innerHTML = "You have just added wheat to the shopping list";
     }
 
-  } else {
-    outputText += item + " is already in the shopping list<br><br>";
+
   }
-
-  
-  outputText += "These are the items on your shopping list:<br>";
-
-
-  for (let i = 0; i < classArray.length; i++) {
-    outputText += "list " + i + ": " + classArray[i] + "<br>";
-  }
-
-  OUTPUT.innerHTML = outputText;
-}
-
       
 }
