@@ -236,7 +236,13 @@ function addShoppingItem() {
     else if (item == "wheat") {
         OUTPUT.innerHTML = "You have just added wheat to the shopping list";
     }
+ var outputText = "These are the items on your shopping list:<br>";
 
+  
+    outputText += classArray[i] + "<br>";
+  
+
+  OUTPUT.innerHTML = outputText;
 
   }
 
