@@ -228,13 +228,13 @@ function addShoppingItem() {
     OUTPUT.innerHTML += "<p>You have added eggs to the shopping list</p>";
 }
 
-    else if (item += "butter") {
+    else if (item == "butter") {
         OUTPUT.innerHTML = "You have added butter to the shopping list";
     }
-    else if (item += "milk") {
+    else if (item == "milk") {
         OUTPUT.innerHTML = "You have added milk to the shopping list";
     }
-    else if (item += "wheat") {
+    else if (item == "wheat") {
         OUTPUT.innerHTML = "You have added wheat to the shopping list";
     }
 
