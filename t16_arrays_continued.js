@@ -225,13 +225,13 @@ function addShoppingItem() {
         OUTPUT.innerHTML = "You have added eggs to the shopping list";
     }
     else if (choice == butter) {
-        OUTPUT.innerHTML = "Chocolate is meh";
+        OUTPUT.innerHTML = "You have added butter to the shopping list";
     }
     else if (choice == milk) {
-        OUTPUT.innerHTML = "Chocolate is pretty good";
+        OUTPUT.innerHTML = "You have added milk to the shopping list";
     }
     else if (choice == wheat) {
-        OUTPUT.innerHTML = "Chocolate is the best thing EVER!!!";
+        OUTPUT.innerHTML = "You have added wheat to the shopping list";
     }
 
   }
