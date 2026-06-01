@@ -211,36 +211,42 @@ function numberSong() {
 }
 
 function addShoppingItem() {
+var classArray = ["eggs", "butter", "milk", "wheat"];
+
+function addShoppingItem() {
 
   const item = document.getElementById("addShoppingItemField").value;
   const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 
-  var classArray = ["eggs", "butter", "milk", "wheat"];
-
-  var outputText = "";
+  let outputText = "";
 
 
-   if (!classArray.includes(item)) {
-      classArray.push(item);
 
-  if (item == "eggs") {
-    outputText += "You have just added eggs to the shopping list<br><br>";
+    if (item == "eggs") {
+      outputText += "You have just added eggs to the shopping list<br><br>";
+    }
+    else if (item == "butter") {
+      outputText += "You have just added butter to the shopping list<br><br>";
+    }
+    else if (item == "milk") {
+      outputText += "You have just added milk to the shopping list<br><br>";
+    }
+    else if (item == "wheat") {
+      outputText += "You have just added wheat to the shopping list<br><br>";
+    }
+    else {
+      outputText += "You have just added " + item + " to the shopping list<br><br>";
+    }
+
+  } else {
+    outputText += item + " is already in the shopping list<br><br>";
   }
-  else if (item == "butter") {
-    outputText += "You have just added butter to the shopping list<br><br>";
-  }
-  else if (item == "milk") {
-    outputText += "You have just added milk to the shopping list<br><br>";
-  }
-  else if (item == "wheat") {
-    outputText += "You have just added wheat to the shopping list<br><br>";
-  }
 
-
+  
   outputText += "These are the items on your shopping list:<br>";
 
 
-  for (var i = 0; i < classArray.length; i++) {
+  for (let i = 0; i < classArray.length; i++) {
     outputText += "list " + i + ": " + classArray[i] + "<br>";
   }
 
