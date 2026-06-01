@@ -215,6 +215,6 @@ function addShoppingItem {
   const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
   var classArray = ["eggs", "butter", "milk", "wheat"];
   for(let i=0; i<classArray.length; i++){
-    OUTPUT.innerHTML += "Person "+ i +": "+classArray[i]+"<br>";
+    OUTPUT.innerHTML += "list "+ i +": "+classArray[i]+"<br>";
   }
 }
