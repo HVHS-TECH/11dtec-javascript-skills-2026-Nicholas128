@@ -214,8 +214,25 @@ function addShoppingItem() {
   const NUMBER_FIELD = document.getElementById("addShoppingItemField");
 
   const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
+
   var classArray = ["eggs", "butter", "milk", "wheat"];
+
   for(let i=0; i<classArray.length; i++){
+
     OUTPUT.innerHTML += "list "+ i +": "+classArray[i]+"<br>";
+
+    if (choice == eggs) {
+        OUTPUT.innerHTML = "You have added eggs to the shopping list";
+    }
+    else if (choice == butter) {
+        OUTPUT.innerHTML = "Chocolate is meh";
+    }
+    else if (choice == milk) {
+        OUTPUT.innerHTML = "Chocolate is pretty good";
+    }
+    else if (choice == wheat) {
+        OUTPUT.innerHTML = "Chocolate is the best thing EVER!!!";
+    }
+
   }
 }
