@@ -216,7 +216,7 @@ function addShoppingItem() {
 
   const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 
-  OUTPUT.innerHTML += "<p>Out of eggs, butter, milk and wheat, what would you like to add to the shopping list?</p>";
+  OUTPUT.innerHTML = "<p>Out of eggs, butter, milk and wheat, what would you like to add to the shopping list?</p>";
 
   var classArray = ["eggs", "butter", "milk", "wheat"];
 
